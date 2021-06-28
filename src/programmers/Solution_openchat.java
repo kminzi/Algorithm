@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+//문제 링크 : https://programmers.co.kr/learn/courses/30/lessons/42888
 public class Solution_openchat {
 
     static String[] solution(String[] record) {
