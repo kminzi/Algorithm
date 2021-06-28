@@ -14,5 +14,9 @@ public class string {
         String[] num2 = str.split("-",2);
         System.out.println("num1 = "+ num2[0]);
         System.out.println("num2 = "+ num2[1]);
+
+        //string to int
+        String s = "123";
+        int n = Integer.parseInt(s);
     }
 }
