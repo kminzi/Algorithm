@@ -3,7 +3,7 @@ package programmers;
 import java.util.*;
 
 //문제 링크 : https://programmers.co.kr/learn/courses/30/lessons/42576
-class Solution {
+class Solution42576 {
     public String solution(String[] participant, String[] completion) {
         Map<String, Integer> hashmap = new HashMap<String, Integer>();
         String answer = "";
@@ -30,7 +30,7 @@ public class Solution_marathonRunner {
     public static void main(String[] args) {
         String[] participant1 = {"leo", "kiki", "eden"};
         String[] completion1 = {"eden", "kiki"};
-        Solution sol = new Solution();
+        Solution42576 sol = new Solution42576();
 
         System.out.println("my ans : "+sol.solution(participant1, completion1) + " | ans : \"leo\"");
 
