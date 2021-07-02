@@ -37,6 +37,11 @@ public class hashmap {
         System.out.println(map1);
         System.out.println(map2);
 
+        //값 입력 시 기본 값(해당 키가 있으면 가져오고 없으면 기본 값으로 0을 설정)
+        map2.put("a", map2.getOrDefault("a",0)+1);
 
+        //key, value 존재 여부 확인
+        System.out.println(map1.containsKey("a"));
+        System.out.println(map2.containsValue(1));
     }
 }
