@@ -45,6 +45,9 @@ public class Array {
         //다른 문자열인 경우 ascii 기반 비교
         System.out.println("1234".compareTo("1245"));
 
+        //배열에 특정 값이 있는지 확인
+        Arrays.asList(numbers2).contains(22);
+
     }
 
 }
