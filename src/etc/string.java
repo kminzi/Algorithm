@@ -22,5 +22,10 @@ public class string {
         String s1 = "abcde";
         int i =2;
         System.out.println(s1.substring(1,i));
+
+        //특정 문자열로 시작, 끝 확인
+        String str1 = "abcdefgwdse";
+        System.out.println(str1.startsWith("ab"));
+        System.out.println(str1.endsWith("se"));
     }
 }
