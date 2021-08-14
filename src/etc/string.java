@@ -18,5 +18,9 @@ public class string {
         //string to int
         String s = "123";
         int n = Integer.parseInt(s);
+
+        String s1 = "abcde";
+        int i =2;
+        System.out.println(s1.substring(1,i));
     }
 }

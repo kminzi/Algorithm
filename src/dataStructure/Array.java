@@ -28,7 +28,7 @@ public class Array {
         System.out.println(Arrays.toString(arr2));
 
         //정렬(custom)
-        String[] numbers2 = {"3", "30", "34", "5", "9"};
+        String[] numbers2 = {"3", "30", "34", "5", "9", "9"};
         Arrays.sort(numbers2, new Comparator<String>() {
             //return 양수이면 자리 변경
             @Override
@@ -47,7 +47,6 @@ public class Array {
 
         //배열에 특정 값이 있는지 확인
         Arrays.asList(numbers2).contains(22);
-
     }
 
 }
