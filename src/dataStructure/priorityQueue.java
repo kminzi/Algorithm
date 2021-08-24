@@ -16,6 +16,7 @@ public class priorityQueue {
         pq.add(3);
         pq.add(2);
         pq.add(4);
+        System.out.println(pq.toString());
 
         //값 제거
         int a = pq.poll();
