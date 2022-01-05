@@ -47,6 +47,11 @@ public class Array {
 
         //배열에 특정 값이 있는지 확인
         Arrays.asList(numbers2).contains(22);
+
+        //특정 문자열 바꾸기
+        String arr3 = "abc12bc33cd7";
+        arr3 = arr3.replace("bc", "7");
+        System.out.println(arr3);
     }
 
 }
