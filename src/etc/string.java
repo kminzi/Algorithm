@@ -27,5 +27,12 @@ public class string {
         String str1 = "abcdefgwdse";
         System.out.println(str1.startsWith("ab"));
         System.out.println(str1.endsWith("se"));
+
+        //대소문자 변환
+        String upper = "ABC";
+        System.out.println(upper.toLowerCase());
+
+        String lower = "abc";
+        System.out.println(lower.toUpperCase());
     }
 }
