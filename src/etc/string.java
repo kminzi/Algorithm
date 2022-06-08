@@ -34,5 +34,10 @@ public class string {
 
         String lower = "abc";
         System.out.println(lower.toUpperCase());
+
+        //특정 문자열 바꾸기
+        String arr3 = "abc12bc33cd7";
+        arr3 = arr3.replace("bc", "7");
+        System.out.println(arr3);
     }
 }
