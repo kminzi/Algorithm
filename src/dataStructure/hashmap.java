@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class hashmap {
-
     public static void main(String[] args) {
         //선언
         HashMap<String, String> map1 = new HashMap<>();
@@ -23,7 +22,7 @@ public class hashmap {
             System.out.println("[key] " + s + "[value]" + map2.get(s));
         }
 
-        //값 추가
+        //값 추가 & 변경
         //같은 key가 존재하면 value가 대치됨.
         map1.put("1", "2");
         map2.put("a", 2);

@@ -79,5 +79,11 @@ public class arrayList {
         //arrlist2 - arrlist
         arrlist2.removeAll(arrlist);
 
+
+        //arrayList to array
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        Integer[] integerArray = (Integer[]) arrayList.toArray();
+
     }
 }
