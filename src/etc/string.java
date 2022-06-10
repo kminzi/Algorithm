@@ -15,6 +15,10 @@ public class string {
         System.out.println("num1 = "+ num2[0]);
         System.out.println("num2 = "+ num2[1]);
 
+        //index로 접근
+        String sc = "abc";
+        char c = sc.charAt(1);
+
         //string to int
         String s = "123";
         int n = Integer.parseInt(s);
