@@ -23,6 +23,9 @@ public class string {
         String s = "123";
         int n = Integer.parseInt(s);
 
+        //string to char[]
+        char[] ch = s.toCharArray();
+
         String s1 = "abcde";
         int i =2;
         System.out.println(s1.substring(1,i));
