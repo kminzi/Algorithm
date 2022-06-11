@@ -47,6 +47,7 @@ public class Array {
 
         //배열에 특정 값이 있는지 확인
         Arrays.asList(numbers2).contains(22);
+        Arrays.stream(numbers2).anyMatch(s -> s == "22");
 
         //두 배열이 같은지 확인
         Arrays.equals(new int[]{1, 2, 3}, new int[]{1, 2, 3});
