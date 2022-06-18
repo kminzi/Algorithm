@@ -7,8 +7,10 @@ import java.util.*;
 public class arrayList {
 
     public static void main(String[] args) {
+        //선언
         ArrayList<Integer> numbers = new ArrayList();
-        ArrayList integers = new ArrayList();
+        ArrayList<Integer> numbers_by_size = new ArrayList<>(20);
+        ArrayList<Integer> numbers_init = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
 
         //원소 추가
         numbers.add(10);

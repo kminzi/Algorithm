@@ -1,8 +1,6 @@
 package dataStructure;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 //중복 저장을 허용하지 않고, 저장 순서를 보장하지 않는다
 public class set {
@@ -30,9 +28,20 @@ public class set {
             System.out.println(iterator.next());
         }
 
-        //
+        //값 삭제
+        System.out.println(s1.remove(1)); //true
+        System.out.println(s1.remove(1)); //false
+
+        //값 여러개 삭제
+        List<Integer> l1 = new ArrayList<>(Arrays.asList(1, 2, 3));
+        s1.removeAll(l1); //삭제된 것이 있으면 true
+
+        //조건으로 삭제 by lambda
+        s1.removeIf(s -> s.equals(1));
+
+        //포함여부
+        s1.contains(1);
 
     }
-
 
 }
