@@ -13,6 +13,10 @@ public class Array {
         int[] arr = {12, 23, 45, 56, 22};
         int[] num = new int[3];
 
+        //특정 값으로 초기화
+        Arrays.fill(arr, 33);
+
+
         //출력
         System.out.println(arr); //id가 출력
         System.out.println(Arrays.toString(arr)); //배열의 내용 출력
@@ -51,6 +55,9 @@ public class Array {
 
         //두 배열이 같은지 확인
         Arrays.equals(new int[]{1, 2, 3}, new int[]{1, 2, 3});
+
+        //최대값
+        Arrays.stream(arr).max().getAsInt();
     }
 
 }
