@@ -42,6 +42,9 @@ public class set {
         //포함여부
         s1.contains(1);
 
+        //전체 합 구하기
+        s1.stream().mapToInt(Integer::intValue).sum();
+
     }
 
 }

@@ -2,6 +2,7 @@ package dataStructure;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.stream.IntStream;
 
 public class Array {
 
@@ -15,7 +16,6 @@ public class Array {
 
         //특정 값으로 초기화
         Arrays.fill(arr, 33);
-
 
         //출력
         System.out.println(arr); //id가 출력
@@ -44,6 +44,7 @@ public class Array {
         });
         System.out.println(Arrays.toString(numbers2));
 
+
         //compareTo
         //비교대상과 문자열이 겹치는 경우 길이비교
         //다른 문자열인 경우 ascii 기반 비교
@@ -58,6 +59,11 @@ public class Array {
 
         //최대값
         Arrays.stream(arr).max().getAsInt();
+
+        //배열 자르기
+        IntStream.range(1, 2).mapToObj(i -> arr[i]).toArray();
+
+        Arrays.asList(arr).subList(1, 2);
     }
 
 }

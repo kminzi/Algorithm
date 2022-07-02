@@ -87,5 +87,13 @@ public class arrayList {
         arrayList.add(1);
         Integer[] integerArray = (Integer[]) arrayList.toArray();
 
+        //int 배열로 변환하는 경우
+        int[] arr = arrayList.stream().mapToInt(i -> i).toArray();
+
+
+        //정렬
+        Collections.sort(arrlist);
+        arrlist.sort(Comparator.naturalOrder());
+
     }
 }
